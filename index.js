@@ -35,4 +35,5 @@ exports.registerRoute = function(hook_name, args, cb) {
 
 		res.send(r);
 	});
+	return cb();
 };
